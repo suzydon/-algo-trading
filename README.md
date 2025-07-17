@@ -1,29 +1,60 @@
 # Algorithmic Trading Strategy
 
-This repository contains a comprehensive algorithmic trading strategy implemented in Python. The strategy leverages historical market data and machine learning models to predict price movements and generate trading signals, inspired by quantitative finance practices at HSBC.
+# 📈 Algorithmic Trading Strategy: Momentum-Based Backtesting Engine
 
-## Features
+This repository showcases a prototype algorithmic trading engine that identifies and backtests momentum-based strategies on U.S. equity market data. Designed as part of my self-driven learning in quantitative finance, the project reflects my interest in applying data science and machine learning to real-world trading problems.
 
-- Historical market data processing (using Yahoo Finance API)
-- Technical indicator calculation (SMA, EMA, RSI, MACD, Bollinger Bands, etc.)
-- Feature engineering for machine learning
-- Machine learning models: Random Forest, Gradient Boosting
-- Trading signal generation and position sizing with risk management
-- Backtesting and performance evaluation
-- Visualization dashboards with Plotly
+---
 
-## Requirements
+## 🚀 Project Goals
 
-- Python 3.8+
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
-- plotly
-- yfinance
+- Identify high-performing stocks using momentum indicators (RSI, SMA crossovers)
+- Automate strategy generation and evaluation over historical periods
+- Visualize key metrics (cumulative returns, drawdowns, Sharpe ratios)
+- Build an extendable pipeline that can integrate with live trading environments
 
-You can install dependencies using:
+---
 
-```bash
-pip install -r requirements.txt
+## 🛠️ Technologies Used
+
+- `Python` (data manipulation, modeling)
+- `Pandas`, `NumPy`, `TA-Lib`, `yfinance`
+- `Matplotlib`, `Seaborn` for data visualization
+- `Jupyter Notebook` for prototyping and iteration
+- `Git/GitHub` for version control
+
+---
+
+## 📊 Strategy Overview
+
+We tested a **momentum-based strategy** combining:
+
+- **RSI (Relative Strength Index)**: Buy signal under 30, sell over 70
+- **Moving Average Crossover**: 10-day vs 50-day
+- Optional filters: price volatility, volume threshold
+
+Backtesting logic evaluates:
+
+- Entry/exit logic based on indicator signals
+- PnL, win rate, Sharpe Ratio, max drawdown
+- Sensitivity across multiple tickers (e.g., AAPL, MSFT, NVDA)
+
+---
+
+## 📈 Sample Output
+
+### Example: AAPL 2021–2023
+
+![Sample Cumulative Return](./figures/aapl_cumulative_return.png)
+
+| Metric         | Value      |
+|----------------|------------|
+| Total Return   | +24.7%     |
+| Sharpe Ratio   | 1.31       |
+| Max Drawdown   | -8.4%      |
+
+---
+
+## 📂 Project Structure
+
+
