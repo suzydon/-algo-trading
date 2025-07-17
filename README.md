@@ -57,6 +57,37 @@ Backtesting logic evaluates:
 
 ---
 
-## 📂 Project Structure
+
+
+##  My Role
+
+I independently built the full pipeline, including:
+
+- Strategy design and tuning
+- Data sourcing via `yfinance`
+- Backtest engine implementation
+- Visualization and performance tracking
+- README documentation and GitHub publishing
+
+This project was inspired by my experience at HSBC (FX Trading Strategy) and my ongoing Data Science studies at UTS. It's a demonstration of how I bridge theoretical finance with hands-on coding and strategy building.
+
+---
+
+## Future Plans
+
+- Add live paper trading via Alpaca or IBKR API
+- Incorporate ML-based signal generation (XGBoost, LSTM)
+- Multi-asset portfolio optimization
+
+---
+
+##  Contact
+
+Feel free to connect or reach out:
+
+**Suzy Tang**  
+Email: suzytang5544@gmail.com  
+LinkedIn: [linkedin.com/in/suzytang  
+
 
 
