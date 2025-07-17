@@ -43,9 +43,11 @@ Backtesting logic evaluates:
 
 ## 📈 Sample Output
 
-### Example: AAPL 2021–2023
 
-![Sample Cumulative Return](./figures/aapl_cumulative_return.png)
+
+- [market Dashboard（Plotly）](market_analysis_dashboard.html)
+- [performance Dashboard（Plotly）](strategy_performance_dashboard.html)
+
 
 | Metric         | Value      |
 |----------------|------------|
